@@ -24,6 +24,10 @@ public class StringArrayFilterByStart7 {
         char search = input.charAt(0); // save char as first index of input string (in case user enters multiple chars)
 
 
+        System.out.print("Mit welche Erstbuchstabe soll gefiltert werden?: ");
+        String sp = sc.nextLine();
+
+
         System.out.printf("\nAlle Strings die mit %s anfangen:\n", search);
         for (String name : namen) {
             if (name.startsWith(String.valueOf(search))) {
