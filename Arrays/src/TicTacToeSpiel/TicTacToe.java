@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class TicTacToe {
     static Scanner sc = new Scanner(System.in);
     static char[][] field = new char[3][3];
-    static boolean isOver = false;
     static int turnCounter = 1;
     static char symbol = 'x';
     static int winner = 0;
@@ -25,7 +24,7 @@ public class TicTacToe {
         System.out.println(ANSI_BLUE + "\nWelcome to Tic Tac Toe!\n" + ANSI_RESET);
         printField();
 
-        while (!isOver) {
+        while (true) {
             if (turnCounter % 2 != 0) {
                 symbol = 'o';
                 System.out.println("Player 1 (o): ");
@@ -129,7 +128,6 @@ public class TicTacToe {
                     } else winner = 2;
                     return true;
                 }
-
             }
         }
 
