@@ -24,10 +24,12 @@ public class TicTacToe {
         System.out.println(ANSI_BLUE + "\nWelcome to Tic Tac Toe!\n" + ANSI_RESET);
         printField();
 
+
         while (true) {
             if (turnCounter % 2 != 0) {
                 symbol = 'o';
                 System.out.println("Player 1 (o): ");
+
             }
             else {
                 symbol = 'x';
@@ -148,12 +150,12 @@ public class TicTacToe {
     public static void fillInitialField() {
         // since every spot is being filled with the same char, instead of using a for loop we can use a for each loop
         // since we don't need to state positions
+
         for (char[] chars : field) {
             Arrays.fill(chars, '-'); // shortcut to fill every spot in each row with '-'
         }
 
 
     }
-
 
 }

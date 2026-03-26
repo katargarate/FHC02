@@ -18,6 +18,7 @@ public class FilesEinlesen {
     static Scanner sc = new Scanner(System.in);
     // sie = 263
     static void main() {
+
         System.out.print("Welches Wort wollen Sie im Dokument suchen?: ");
         String input = sc.next().toLowerCase();
 
@@ -28,6 +29,6 @@ public class FilesEinlesen {
             if (word.equals(input)) counter++;
         }
 
-        System.out.printf("%s wurde %dx im Text gefunden.", input, counter);
+        System.out.printf("'%s' wurde %d x im Text gefunden.", input, counter);
     }
 }
