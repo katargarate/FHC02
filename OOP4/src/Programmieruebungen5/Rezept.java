@@ -19,7 +19,7 @@ public class Rezept {
                 return true;
             }
         }
-        return false;
+         return false;
     }
 
     public double kostet() {
@@ -55,6 +55,7 @@ public class Rezept {
         boolean wurdeGeaendert = false;
 
         for (int i = 0; i < zutatenName.length; i++) {
+
             String name = zutatenName[i].toLowerCase();
 
             if (name.contains("milch") || name.contains("käse")) {
@@ -74,6 +75,7 @@ public class Rezept {
     }
 
     public void setAnzahlPersonen(int anzahlPersonen) {
-        this.anzahlPersonen = anzahlPersonen;
+        aenderePersonen(anzahlPersonen);
     }
+
 }

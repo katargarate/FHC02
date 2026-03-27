@@ -5,6 +5,8 @@ public class RezeptApp {
 
         // Testdaten erstellen
         String[] namen = {"Nudeln", "Tomatensoße", "Milch", "Parmesan"};
+
+
         double[][] zutaten = {
                 {300, 1.0},  // Nudeln
                 {100, 2.0},  // Tomatensoße
@@ -12,28 +14,28 @@ public class RezeptApp {
                 {150, 2.5}   // Käse
         };
 
-        Rezept rezept = new Rezept(2, namen, zutaten);
+        Rezept pastaGericht = new Rezept(2, namen, zutaten);
 
         // ----------------------------
         System.out.println("TEST: kostet");
-        System.out.println("Gesamtkosten: " + rezept.kostet());
+        System.out.println("Gesamtkosten: " + pastaGericht.kostet());
 
         // ----------------------------
         System.out.println("\nTEST: kostetProPerson");
-        System.out.println("Kosten pro Person: " + rezept.kostetProPerson());
+        System.out.println("Kosten pro Person: " + pastaGericht.kostetProPerson());
 
         // ----------------------------
         System.out.println("\nTEST: allergisch");
-        System.out.println("Allergisch gegen Milch? " + rezept.allergisch("Milch"));
-        System.out.println("Allergisch gegen Reis? " + rezept.allergisch("Reis"));
+        System.out.println("Allergisch gegen Milch? " + pastaGericht.allergisch("Milch"));
+        System.out.println("Allergisch gegen Reis? " + pastaGericht.allergisch("Reis"));
 
         // ----------------------------
         System.out.println("\nTEST: aenderePersonen (2 -> 4)");
-        rezept.aenderePersonen(4);
+        pastaGericht.aenderePersonen(4);
 
-        System.out.println("Neue Personenanzahl: " + rezept.getAnzahlPersonen());
-        System.out.println("Neue Gesamtkosten: " + rezept.kostet());
-        System.out.println("Neue Kosten pro Person: " + rezept.kostetProPerson());
+        System.out.println("Neue Personenanzahl: " + pastaGericht.getAnzahlPersonen());
+        System.out.println("Neue Gesamtkosten: " + pastaGericht.kostet());
+        System.out.println("Neue Kosten pro Person: " + pastaGericht.kostetProPerson());
 
         // Zutaten nach Änderung anzeigen
         System.out.println("\nZutaten nach Skalierung:");
@@ -43,7 +45,7 @@ public class RezeptApp {
 
         // ----------------------------
         System.out.println("\nTEST: laktoseFrei");
-        boolean entfernt = rezept.laktoseFrei();
+        boolean entfernt = pastaGericht.laktoseFrei();
         System.out.println("Wurde etwas entfernt? " + entfernt);
 
         // Zutaten nach laktosefrei anzeigen

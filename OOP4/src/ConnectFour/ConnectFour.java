@@ -53,7 +53,7 @@ public class ConnectFour {
 
         displayBoard();
 
-        if (checkForWin(row, column)){
+        if (checkWin()){
             if (player1) System.out.println("\nPLAYER 1 WINS");
             else System.out.println("\nPLAYER 2 WINS");
 
@@ -72,43 +72,82 @@ public class ConnectFour {
         return lowestAvailable;
     }
 
-    private boolean checkForWin(int row, int column) {
+//    private boolean checkForWin(int row, int column) {
+//
+//        //System.out.println("\nDEBUGGING: CHECKING FOR WIN");
+//
+//        // horizontal win
+//        int counter = 0;
+//        for (char place : board[row]) {
+//            if (counter >= 4) return true;
+//            if (place != symbol){
+//                counter = 0;
+//
+//            } else {
+//                counter ++;
+//            }
+//        }
+//
+//        // vertical win
+//        counter = 0;  // reset counter
+//
+//        for (int i = 0; i < board.length; i++) {
+//
+//            if (board[i][column] != symbol) {
+//                counter = 0;
+//            } else {
+//                counter++;
+//            }
+//            if (counter == 4) return true;
+//        }
+//
+//
+//        if (checkForDiagonalWin(row, column, true)) return true;
+//
+//
+//        if (checkForDiagonalWin(row, column, false)) return true;
+//
+//    return false;
+//
+//    }
 
-        //System.out.println("\nDEBUGGING: CHECKING FOR WIN");
+    //methode um den gewinn zu überprüfen mit boolean rückgabetyp
+    public boolean checkWin() {
 
-        // horizontal win
-        int counter = 0;
-        for (char place : board[row]) {
-            if (counter >= 4) return true;
-            if (place != symbol){
-                counter = 0;
-
-            } else {
-                counter ++;
-            }
-        }
-
-        // vertical win
-        counter = 0;  // reset counter
-
+        //horizontal
         for (int i = 0; i < board.length; i++) {
-
-            if (board[i][column] != symbol) {
-                counter = 0;
-            } else {
-                counter++;
+            for (int j = 0; j < board[i].length - 3; j++) {
+                if (board[i][j] == symbol && board[i][j + 1] == symbol && board[i][j + 2] == symbol && board[i][j + 3] == symbol) {
+                    return true;
+                }
             }
-            if (counter == 4) return true;
         }
-
-
-        if (checkForDiagonalWin(row, column, true)) return true;
-
-
-        if (checkForDiagonalWin(row, column, false)) return true;
-
-    return false;
-
+        //vertikal
+        for (int i = 0; i < board.length - 3; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                if (board[i][j] == symbol && board[i + 1][j] == symbol && board[i + 2][j] == symbol && board[i + 3][j] == symbol) {
+                    return true;
+                }
+            }
+        }
+        //diagonal schräg nach oben
+        for (int i = 3; i < board.length; i++) {
+            for (int j = 0; j < board[i].length - 3; j++) {
+                if (board[i][j] == symbol && board[i - 1][j + 1] == symbol && board[i - 2][j + 2] == symbol && board[i - 3][j + 3] == symbol) {
+                    return true;
+                }
+            }
+        }
+        //diagonal schräg nach unten
+        for (int i = 0; i < board.length - 3; i++) {
+            for (int j = 3; j < board[i].length; j++) {
+                if (board[i][j] == symbol && board[i + 1][j + 1] == symbol && board[i + 2][j + 2] == symbol && board[i + 3][j + 3] == symbol) {
+                    return true;
+                }
+            }
+        }
+        //kein gewinner
+        return false;
     }
 
     private boolean checkForDiagonalWin(int row, int column, boolean toLeft) {
