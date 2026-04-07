@@ -1,0 +1,23 @@
+package Figures;
+
+import java.util.Arrays;
+
+public class FigureH extends Figure {
+    StringBuilder sb = new StringBuilder();
+
+
+    public FigureH(int size) {
+        this.size = size;
+        symbol[0][0] = 'X';
+        symbol[1][0] = ' ';
+        symbol[2][0] = 'X';
+
+        symbol[0][1] = 'X';
+        symbol[1][1] = 'X';
+        symbol[2][1] = 'X';
+
+        symbol[0][2] = 'X';
+        symbol[1][2] = ' ';
+        symbol[2][2] = 'X';
+   }
+}
