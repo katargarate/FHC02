@@ -19,5 +19,6 @@ public class FigureH extends Figure {
         symbol[0][2] = 'X';
         symbol[1][2] = ' ';
         symbol[2][2] = 'X';
+
    }
 }

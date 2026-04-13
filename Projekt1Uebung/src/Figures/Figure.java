@@ -2,7 +2,7 @@ package Figures;
 
 public abstract class Figure {
     protected char[][] symbol = new char[3][3];
-    public int size;
+    protected int size;
 
     public Figure() {
 
