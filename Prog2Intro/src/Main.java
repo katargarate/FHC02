@@ -34,6 +34,6 @@ void main() {
     OpeningHours ohshop2 = shop2.getOPENING_HOURS(); // returns the shops instance of opening hours
     System.out.printf("\n%s: %s", shop2.getNAME(), ohshop2.getOpeningHoursToday(dow)); // print opening hours message
 
-
+    System.out.println("🌈");
 
 }
