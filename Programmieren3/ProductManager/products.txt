@@ -1,0 +1,5 @@
+Product Name, Price, Category
+Apple, €0.99, Fruit
+Banana, €0.89, Fruit
+Kiwi, €0.69, Fruit
+Mango, €1.99, Fruit
