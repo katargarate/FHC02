@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Tricktionary</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="images/logo-long.png" alt="Tricktionary logo">
+            </a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="beginner.html">Beginner Tricks</a></li>
+                <li><a href="advanced.html">Advanced Tricks</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1>Contact the Tricktionary</h1>
+        <h2>Got a trick suggestion, correction, or skatepark story? Drop us a message.</h2>
+    </header>
+
+
+    <main>
+
+        <section class="contactSection">
+
+            <section class="contactIntro">
+                <p>
+                    We read every message — whether it’s a trick correction, park recommendation,
+                    or a full breakdown suggestion.
+                </p>
+            </section>
+
+            <form class="contactForm" enctype="multipart/form-data">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What’s this about?">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+                <label for="file">Upload trick photo or clip (optional)</label>
+                <input type="file" id="file" name="file" accept="image/*">
+                <small>Share a photo of your trick, skate setup, or skatepark suggestion</small>
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Roller Skate Tricktionary</p>
+        <p>Instagram • TikTok • YouTube</p>
+    </footer>
+
+</body>
+
+</html>

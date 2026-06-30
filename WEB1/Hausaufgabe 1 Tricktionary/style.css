@@ -1,3 +1,322 @@
+:root {
+    --accent: #EF2E23;
+    --ink: #100E17;
+    --paper: #FAF3E6;
+}
+
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    background: var(--paper);
+    padding: 3rem;
+    box-shadow: 0 0 20px rgba(16, 14, 23, 0.15);
+}
+
+/*HEADER*/
+
 h1 {
-    color: purple;
+    color: var(--ink);
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    max-width: 700px;
+    margin: 0 auto 1.5rem auto;
+    font-style: italic;
+    color: var(--ink);
+}
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 3px solid var(--ink);
+    border-bottom: 3px solid var(--ink);
+
+    padding: 0.75rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    display: block;
+
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.5rem;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--ink);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul li a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+/*INTRO TEXT*/
+
+aside p {
+    font-family: 'Baskervville', serif;
+    color: var(--ink);
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+#introText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+#introText aside {
+    padding: 10px;
+}
+
+aside p::first-letter {
+    font-size: 4rem;
+    float: left;
+    line-height: 0.8;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+/*SECTIONS*/
+
+#featuredTrick,
+#trickOfMonth {
+    max-width: 1000px;
+    margin: 4rem auto;
+}
+
+#featuredTrick h2,
+#trickOfMonth h2 {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: .5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* FEATURED TRICK*/
+
+.feature {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.feature img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid var(--ink);
+}
+
+.featureText h3 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.featureText p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.featureText a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--accent);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.featureText a:hover {
+    text-decoration: underline;
+}
+
+/*TRICK OF THE MONTH*/
+
+#trickOfMonth figure {
+    margin: 0;
+    text-align: center;
+}
+
+#trickOfMonth img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border: 3px solid var(--ink);
+}
+
+#trickOfMonth figcaption {
+    margin-top: .75rem;
+    font-style: italic;
+    font-size: .95rem;
+}
+
+
+/*CONTACT PAGE*/
+
+.contactSection {
+    max-width: 700px;
+    margin: 4rem auto;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* labels */
+.contactForm label {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+/* inputs */
+.contactForm input,
+.contactForm textarea {
+    padding: 0.75rem;
+    border: 2px solid var(--ink);
+    background: var(--paper);
+    font-family: 'Baskervville', serif;
+    font-size: 1rem;
+    color: var(--ink);
+}
+
+/* focus state */
+.contactForm input:focus,
+.contactForm textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+/* button */
+.contactForm button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border: 2px solid var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--paper);
+}
+
+
+/*TRICK GRID (shared style)*/
+
+.trickGrid {
+    max-width: 1000px;
+    margin: 4rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+/*BEGINNER CARDS*/
+
+.trickCard {
+    border: 2px solid var(--ink);
+    padding: 1.5rem;
+    background: var(--paper);
+    overflow: hidden;
+}
+
+.trickCard h3 {
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.trickCard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 1rem;
+}
+
+/* Advanced page feel */
+.advancedCard {
+    border-color: var(--accent);
+    position: relative;
+}
+
+
+/*GALLERY PAGE*/
+
+.galleryGrid {
+    max-width: 1100px;
+    margin: 4rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.galleryGrid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+    border: 2px solid var(--ink);
+    transition: transform 0.2s ease;
+}
+
+.galleryGrid img:hover {
+    transform: scale(1.03);
 }
