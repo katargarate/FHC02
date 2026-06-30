@@ -1,0 +1,60 @@
+header {
+    background-color: pink;
+    
+}
+
+nav {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: darkseagreen;
+}
+
+aside {
+    background-color: bisque;
+    display: flex;
+}
+
+footer {
+    background-color: pink;
+    align-content: center;
+}
+
+section{
+    display: flex;
+    flex-wrap: no-wrap;
+}
+
+nav,main,aside {
+    flex: 1;
+    padding: 0;
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h1, h2, h3, p {
+padding-left: 5%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+

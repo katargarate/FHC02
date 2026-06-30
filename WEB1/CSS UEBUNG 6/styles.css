@@ -1,0 +1,69 @@
+:root {
+  --header-color: #808080;
+  --content-color: #D3D3D3;
+  --footer-color: #6E94E9;
+}
+
+body,
+nav,
+ul,
+li {
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav {
+  background-color: var(--header-color);
+  padding: 4px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 10px;
+  color: white;
+}
+
+.hero {
+  background-image: url("images/splash-2.png");
+  background-size: cover;
+  text-align: center;
+  padding: 10rem 0;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: whitesmoke;
+  margin: 1rem 0;
+  padding: 2rem 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-text {
+  font-size: 1.4rem;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 3%;
+}
+
+
+.content-box {
+  background-color: var(--content-color);
+  padding: 1rem;
+}
+
+footer{
+  background-color: var(--footer-color);
+}

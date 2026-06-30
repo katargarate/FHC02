@@ -1,11 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontakt - Virtuelle Bibliothek</title>
 </head>
+
 <body>
-    <h1>Kontakt</h1>
+
+    <header>
+        <a href="index.html">
+            <img src="images/bibliothek-logo.png" alt="bibliothek-logo" width="100" height="100" style="float:right;">
+        </a>
+
+        <h1>Libby Audiobook Library</h1>
+
+        <nav>
+            <ul style="list-style-type:none;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#buecher-liste">Bibliothek Sammlung</a></li>
+                <li><a href="authoren.html">Authoren</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+        <h2>Kontaktformular</h2>
+
+        <p>Bitte füllen Sie das Formular aus, um uns zu kontaktieren.</p>
+
+        <form action="https://example.com/submit" method="POST">
+
+            <!-- Subject -->
+            <label for="thema">Thema *</label><br>
+            <select id="thema" name="thema" required>
+                <option value="">-- Bitte wählen --</option>
+                <option value="allgemein">Allgemeine Anfrage</option>
+                <option value="feedback">Feedback</option>
+                <option value="problem">Probleme melden</option>
+                <option value="buch">Buchanfrage</option>
+                <option value="marketing">Marketingangelegenheiten</option>
+                <option value="partnerschaft">Partnerschaftsanfrage</option>
+                <option value="support">Technischer Support</option>
+                <option value="datenschutz">Datenschutzanfrage</option>
+                <option value="sonstiges">Sonstiges</option>
+            </select>
+
+            <br><br>
+
+            <!-- First Name -->
+            <label for="vorname">Vorname *</label><br>
+            <input type="text" id="vorname" name="vorname" required>
+
+            <br><br>
+
+            <!-- Last Name -->
+            <label for="nachname">Nachname *</label><br>
+            <input type="text" id="nachname" name="nachname" required>
+
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">E-Mail *</label><br>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <!-- Message -->
+            <label for="nachricht">Nachricht *</label><br>
+            <textarea id="nachricht" name="nachricht" rows="6" cols="40" required></textarea>
+
+            <br><br>
+
+            <!-- Attachment -->
+            <label for="datei">Dateianhang (optional)</label><br>
+            <input type="file" id="datei" name="datei">
+
+            <br><br>
+
+            <!-- Checkbox -->
+            <input type="checkbox" id="marketing" name="marketing">
+            <label for="marketing">
+                Ich stimme zu, dass meine Kontaktdaten für Marketingzwecke verwendet werden dürfen.
+            </label>
+
+            <br><br>
+
+            <!-- Submit -->
+            <button type="submit">Senden</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2024 Libby Audiobook Library</p>
+        <p>Kontakt: info@libbyaudiobooklibrary.com</p>
+    </footer>
+
 </body>
+
 </html>
