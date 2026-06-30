@@ -1,4 +1,4 @@
-package at.campus02.enums;
+package Pruefung.Enums;
 
 public class Coffee {
     private String type;

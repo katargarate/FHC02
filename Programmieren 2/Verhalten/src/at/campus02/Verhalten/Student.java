@@ -1,4 +1,4 @@
-package Pruefungsuebungen.Pruefung_Beispiel_Fuchs_3.Verhalten;
+package at.campus02.Verhalten;
 
 public class Student extends Person {
     private int id;
@@ -9,8 +9,8 @@ public class Student extends Person {
     }
 
     @Override
-    public String getInfo() {
-        return super.getInfo() + String.format(", ID: %d", id);
+    public void getInfo() {
+        System.out.println(this); // gibt die Info von toString aus
     }
 
     public int getId() {
@@ -19,8 +19,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                '}';
+        return super.toString() + String.format(", ID: %d", id);
     }
 }

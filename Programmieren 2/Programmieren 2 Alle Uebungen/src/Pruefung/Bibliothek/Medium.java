@@ -1,4 +1,4 @@
-package at.campus02.bibliothek;
+package Pruefung.Bibliothek;
 
 public abstract class Medium implements Comparable<Medium> {
     private String title;

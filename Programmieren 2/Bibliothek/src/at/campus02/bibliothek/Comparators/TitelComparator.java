@@ -1,4 +1,6 @@
-package at.campus02.bibliothek;
+package at.campus02.bibliothek.Comparators;
+
+import at.campus02.bibliothek.Medium;
 
 import java.util.Comparator;
 

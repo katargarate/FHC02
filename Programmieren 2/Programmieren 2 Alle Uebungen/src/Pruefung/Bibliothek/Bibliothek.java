@@ -1,4 +1,4 @@
-package at.campus02.bibliothek;
+package Pruefung.Bibliothek;
 
 import at.campus02.bibliothek.Comparators.PreisComparator;
 

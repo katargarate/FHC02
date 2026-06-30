@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="845688b7-5725-4669-8b89-3d9a0e46cf60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/Bibliothek.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/Test/at/campus02/bibliothek/AusleihbarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/Test/at/campus02/bibliothek/BewertbarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/Test/at/campus02/bibliothek/BibliothekTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Ausleihbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Bewertbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Bibliothek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Buch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Comparators/PreisComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Comparators/TitelComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Comparators/TypComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Hoerbuch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Bibliothek/src/at/campus02/bibliothek/Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/ENUMS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/src/at/campus02/enums/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/src/at/campus02/enums/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/src/at/campus02/enums/CoffeeSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/ENUMS/src/at/campus02/enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Ausleihbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Bewertbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Bibliothek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Buch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Hoerbuch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/PreisComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/TitelComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Bibliothek/TypComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Enums/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Enums/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Enums/CoffeeSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Verhalten/Gruppe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Verhalten/Lektor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Verhalten/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Verhalten/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Verhalten/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefung/Verhalten/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsuebungen/Pruefung_Beispiel_Fuchs_3/Verhalten/Gruppe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsvorbereitung/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsvorbereitung/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsvorbereitung/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsvorbereitung/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsvorbereitung/Moderator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsvorbereitung/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/Verhalten.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/src/at/campus02/Verhalten/Gruppe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/src/at/campus02/Verhalten/Lektor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/src/at/campus02/Verhalten/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/src/at/campus02/Verhalten/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/src/at/campus02/Verhalten/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmieren 2/Verhalten/src/at/campus02/Verhalten/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3_Files/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3_Files/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/Test/Instrumente/InstrumentenbauerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/Test/Instrumente/InstrumentenbauerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsuebungen/Pruefung_Beispiel_Fuchs_3/Verhalten/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsuebungen/Pruefung_Beispiel_Fuchs_3/Verhalten/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsuebungen/Pruefung_Beispiel_Fuchs_3/Verhalten/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmieren 2/Programmieren 2 Alle Uebungen/src/Pruefungsuebungen/Pruefung_Beispiel_Fuchs_3/Verhalten/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB1/Uebung 4 Argarate.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB1/Uebung 5/authoren.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB1/Uebung 5/authoren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB1/Uebung 5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB1/Uebung 5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WEB1/Uebung 5/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WEB1/Uebung 5/kontakt.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="617d7acd-f7fa-4da9-96fd-6b5df7a2a73c" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="617d7acd-f7fa-4da9-96fd-6b5df7a2a73c" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/katargarate/FHC02/Algorithmen Und Datenstrukturen/06-Hashtable" value="3FFnRfjEYrduRy18j2Z4nMIhnuQ" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "katargarate"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/katargarate/FHC02.git",
+    "accountId": "eb9bf917-452e-4fb0-929d-11c80d5a1544"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FFnRfjEYrduRy18j2Z4nMIhnuQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/katargarate/FHC02/Algorithmen Und Datenstrukturen/06-Hashtable",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="845688b7-5725-4669-8b89-3d9a0e46cf60" name="Changes" comment="" />
+      <created>1781679677377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781679677377</updated>
+      <workItem from="1781679678404" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

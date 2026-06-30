@@ -1,4 +1,4 @@
-package Pruefungsuebungen.Pruefung_Beispiel_Fuchs_3.ENUMS;
+package at.campus02.enums;
 
 import java.util.ArrayList;
 
@@ -12,6 +12,8 @@ public class Main {
         Coffee c2 = new Coffee("Latte", CoffeeSize.Medium, 3.50);
         Coffee c3 = new Coffee("Americano", CoffeeSize.ExtraLarge, 4.50);
         Coffee c4 = new Coffee("Cappuccino", CoffeeSize.Large, 4.00);
+        Coffee c5 = new Coffee("Cappucino", CoffeeSize.Medium, 3.50);
+        Coffee c6 = new Coffee("Latte", CoffeeSize.ExtraLarge, 4.50);
 
         // print the list of all coffees made
         printCoffeesMade(); // still empty
@@ -21,6 +23,8 @@ public class Main {
         shop.makeCoffee(c2);
         shop.makeCoffee(c3);
         shop.makeCoffee(c4);
+        shop.makeCoffee(c5);
+        shop.makeCoffee(c6);
 
         // print the list of all coffees made
         printCoffeesMade();
@@ -30,6 +34,10 @@ public class Main {
 
         // display total profits made
         System.out.println("\nTotal profits made: €" + shop.profitsMade());
+
+
+        // Kaffees mit der Größe Medium ausgeben
+        shop.printCoffeesOfSpecifiedSize(CoffeeSize.Medium);
 
     }
 

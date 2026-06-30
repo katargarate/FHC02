@@ -1,4 +1,4 @@
-package at.campus02.enums;
+package Pruefung.Enums;
 
 public enum CoffeeSize {
     Small,

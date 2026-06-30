@@ -1,4 +1,4 @@
-package Pruefungsuebungen.Pruefung_Beispiel_Fuchs_3.Verhalten;
+package at.campus02.Verhalten;
 
 import java.util.ArrayList;
 

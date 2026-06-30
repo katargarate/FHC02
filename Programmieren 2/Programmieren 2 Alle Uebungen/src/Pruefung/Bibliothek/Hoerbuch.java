@@ -1,4 +1,4 @@
-package at.campus02.bibliothek;
+package Pruefung.Bibliothek;
 
 public class Hoerbuch extends Medium{
     private String sprecher;

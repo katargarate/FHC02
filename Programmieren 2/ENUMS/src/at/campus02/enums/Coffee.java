@@ -1,4 +1,4 @@
-package Pruefungsuebungen.Pruefung_Beispiel_Fuchs_3.ENUMS;
+package at.campus02.enums;
 
 public class Coffee {
     private String type;

@@ -1,4 +1,4 @@
-package at.campus02.bibliothek;
+package Pruefung.Bibliothek;
 
 public interface Bewertbar {
     int getBewertung(int sterne);

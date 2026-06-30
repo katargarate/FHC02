@@ -1,4 +1,4 @@
-package Pruefungsuebungen.Pruefung_Beispiel_Fuchs_3.Verhalten;
+package at.campus02.Verhalten;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,19 +16,19 @@ public class Mentor extends Lektor {
         students.add(student);
     }
 
-    public List<String> getStudentsInfo() {
-        List<String> names = new ArrayList<>();
-
-        // alle Namen hinzufuegen
-        for (Student student : students) {
-            names.add(student.getFirstName() + " " + student.getLastName());
-        }
-
-        return names;
+    @Override
+    public String toString() {
+        return super.toString() + String.format(", Anzahl Studenten: %d", students.size());
     }
 
     @Override
-    public String getInfo() {
-        return super.getInfo() + String.format(", Students: %s", getStudentsInfo());
+    public void getInfo() {
+        System.out.println(this); // gibt die Info von toString aus
+
+        // zusätzliche auch die Studenten
+        System.out.printf("Studenten von Mentor %s %s :\n", getFirstName(), getLastName());
+        for (Student student : students) {
+            System.out.println(student.getFirstName() + " " + student.getLastName());
+        }
     }
 }

@@ -2,26 +2,24 @@ package Pruefungsvorbereitung;
 
 import java.util.ArrayList;
 
-public class GameLibrary<T> {
+public class Library<T> {
     private ArrayList<T> list;
 
-    public GameLibrary() {
+    public Library() {
         list = new ArrayList<T>();
     }
 
-    public void addGameToLibrary(T game) {
-        list.add(game);
+    public void addToLibrary(T item) {
+        list.add(item);
     }
 
-    public ArrayList<T> getGameList() {
+    public ArrayList<T> getLibrary() {
         return list;
     }
 
-    public void printGameList() {
-        System.out.println("Game Library:");
-
-        for (T game : list) {
-            System.out.println(game.toString());
+    public void printLibrary() {
+        for (T item : list) {
+            System.out.println(item.toString());
         }
     }
 }

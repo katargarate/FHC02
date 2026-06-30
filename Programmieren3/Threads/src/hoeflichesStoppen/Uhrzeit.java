@@ -1,7 +1,9 @@
+package hoeflichesStoppen;
+
 import java.util.Date;
 
 public class Uhrzeit extends Thread {
-    private Boolean isRunning = true;
+    Boolean isRunning = true;
 
     public void requestShutdown() {
         isRunning = false;

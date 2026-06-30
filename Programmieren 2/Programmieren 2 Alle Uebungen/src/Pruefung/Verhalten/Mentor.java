@@ -1,4 +1,4 @@
-package at.campus02.Verhalten;
+package Pruefung.Verhalten;
 
 import java.util.ArrayList;
 import java.util.List;

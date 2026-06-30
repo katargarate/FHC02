@@ -1,4 +1,4 @@
-package at.campus02.Verhalten;
+package Pruefung.Verhalten;
 
 // könnte eigentlich abstract sein, aber ist nicht in der Angabe oder UML so gestanden, also hab ich es nicht-abstrakt gelassen
 public class Person {

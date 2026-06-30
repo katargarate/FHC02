@@ -93,5 +93,40 @@ public class Main {
             System.out.printf("%s: %s\n", m.getMedientyp(),m.getTitle());
         }
 
+
+        // -- BIBLIOTHEK TESTEN
+
+        Bibliothek bib = new  Bibliothek();
+        bib.addMedium(b1);
+        bib.addMedium(f1);
+        bib.addMedium(h1);
+
+        // extra bücher erstellt
+        Buch b2 = new Buch("Anderes Buch", 2020, 12.99, "Willi Thaler", 200);
+        Buch b3 = new Buch("Noch einen Buch", 2000, 13.99, "HalliiHallo Thaler", 250);
+        bib.addMedium(b2);
+        bib.addMedium(b3);
+
+
+        // -- sortieren nach Jahr testen
+        bib.printNachJahr();
+
+        // -- sortieren nach Preis testen
+        bib.printNachPreis();
+
+        // -- verfuegbare Bücher Testen
+        b3.ausleihen("Sarah Snowman"); // ausleihen
+        bib.printVerfuegbareBuecher(); // "Noch Einen Buch" soll nicht erscheinen
+
+
+        // NEIN, DAS AUSGELIEHENE BUCH "Noch Einen Buch" IST NICHT DABEI
+
+        // BONUS: getMedienTyp() funktioniert bei ArrayList mit alle 3 Medientypen:
+        System.out.println("\n-------- BONUS ----------\n");
+
+        for (Medium m : bib.getMedien()) {
+            System.out.println(m);
+        }
+
     }
 }

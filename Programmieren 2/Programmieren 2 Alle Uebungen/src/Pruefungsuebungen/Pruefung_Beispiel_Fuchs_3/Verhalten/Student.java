@@ -16,4 +16,11 @@ public class Student extends Person {
     public int getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                '}';
+    }
 }

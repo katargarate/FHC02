@@ -1,4 +1,4 @@
-package at.campus02.bibliothek;
+package Pruefung.Bibliothek;
 
 public class Buch extends Medium implements Ausleihbar{
     private String autor;

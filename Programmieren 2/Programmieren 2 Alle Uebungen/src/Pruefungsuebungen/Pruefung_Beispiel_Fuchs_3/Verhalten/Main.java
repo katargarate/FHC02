@@ -66,16 +66,12 @@ Klasse diesen Typ zu.
         System.out.println("\nAlle IDs der Studenten nach Änderung: " + alleIDs);
 
         // --- GENERICS ---
-        ArrayList<Person> allTypesOfPeople = new ArrayList<>();
-        allTypesOfPeople.add(le1);
-        allTypesOfPeople.add(m1);
-        allTypesOfPeople.add(s1);
 
-        // alle können in der Liste gespeichert werden, weil sie alle von Person erben
-        System.out.println("\n------ GENERICS BEISPIEL:");
-        for (Person person : allTypesOfPeople) {
-            System.out.println(person.getInfo());
-        }
+        Gruppe<Student> studentenGruppe = new Gruppe<>();
+        studentenGruppe.mitgliedHinzufuegen(s1);
+        studentenGruppe.mitgliedHinzufuegen(s2);
+
+        studentenGruppe.mitgliederAusgeben();
 
 
 

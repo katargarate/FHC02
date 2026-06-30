@@ -1,5 +1,6 @@
 package Instrumente;
 
+import Pruefungsuebungen.Pruefung_Beispiel_Fuchs_3.Instrumente.*;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

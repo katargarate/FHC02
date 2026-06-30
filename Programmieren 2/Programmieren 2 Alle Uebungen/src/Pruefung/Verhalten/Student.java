@@ -1,4 +1,4 @@
-package at.campus02.Verhalten;
+package Pruefung.Verhalten;
 
 public class Student extends Person {
     private int id;
