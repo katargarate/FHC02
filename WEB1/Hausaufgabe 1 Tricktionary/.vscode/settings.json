@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "workbench.colorTheme": "Solarized Dark",
   "liveServer.settings.port": 5501
 }
+=======
+    "workbench.colorTheme": "Solarized Dark"
+}
+>>>>>>> 22f05efa49c5c2edc4dd262c2693fc8473c2b666
