@@ -1,0 +1,320 @@
+:root {
+    --primary-bg: #ffffff;
+    --accent-bg: #fdf5eb;
+    --highlight: #f4a261;
+    --dark: #1a1a1a;
+    --text: #333333;
+    --text-light: #ffffff;
+    --muted: #555555;
+    --border-radius: 1rem;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--primary-bg);
+    color: var(--text);
+}
+
+
+.container {
+    margin: 0 auto 2rem;
+}
+
+.card {
+    background-color: var(--accent-bg);
+    align-content: center;
+    justify-items: center;
+    border-radius: 15px;    
+}
+
+h2, h3 {
+    justify-self: center;
+}
+
+
+/* -- HEADER -- */
+
+#navbar-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar-list a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--dark);
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+#phoneNoBtn {
+    background-color: var(--highlight);
+    border-radius: 100px;
+    padding: 0 20px;
+    border: none;
+    color: var(--text-light);
+    padding: 10px 14px;
+    white-space: nowrap;
+}
+
+
+
+
+
+/* -- HERO CONTAINER -- */
+
+.hero {
+    background-color: var(--dark);
+    background: url("images/bakery-hero.jpg") center/cover no-repeat;
+    color: var(--text-light);
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 12rem);
+}
+
+
+#heroBtn {
+    background-color: var(--highlight);
+    color: var(--text-light);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 14px;
+}
+
+
+
+/* -- HIGHLIGHTER CONTAINER -- */
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+.highlight-item {
+    flex: 1 1 200px;
+    padding: 2% 4%;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+
+
+
+
+/* -- NEWSLETTER CONTAINER -- */
+
+
+.newsletter {
+    background-color: var(--highlight);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 0 30px 0;
+    width: 100%;
+}
+
+.newsletter h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#newsletter-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#emailInput {
+    border-radius: 5px;
+    border: none; 
+    min-width: 250px;
+    padding: 10px;
+}
+
+#submitBtn {
+    background-color: var(--dark);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    min-width: 120px;
+}
+
+
+
+/* -- PRODUKTE CONTAINER -- */
+
+.produkte .container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: center;
+}
+
+
+.product {
+    flex: 1 1 250px;
+    padding: 2% 4%;
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.produkte>h2 {
+    text-align: center;
+}
+
+
+/* -- FOOTER -- */
+
+footer {
+    background-color: var(--dark);
+    color: var(--text-light);
+
+    align-items: center;
+    padding: 15px 6px;
+}
+
+footer p {
+    justify-self: center;
+}
+
+#copyright {
+    color: var(--muted)
+}
+
+.address-content {
+    opacity: 0.5;
+}
+
+
+.social-media-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.social-media-links a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+
+
+/* -- MOBILE MEDIA QUERY -- */
+/* -- MOBILE MEDIA QUERY -- */
+
+@media (max-width: 600px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #navbar-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    /* HERO */
+    .hero {
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    /* HIGHLIGHTS */
+    .highlights {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 5% auto;
+        gap: 20px;
+    }
+
+    .highlight-item {
+        width: 35%;
+        flex: none;
+        padding: 20px;
+    }
+
+
+    /* NEWSLETTER */
+    .newsletter {
+        padding: 30px 2%;
+    }
+
+    #newsletter-form {
+        width: 100%;
+        align-items: center;
+    }
+
+    #emailInput, #submitBtn {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* PRODUCTS */
+    .produkte .container {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .product {
+        width: 100%;
+        flex: none;
+        padding: 40px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+    }
+
+}
