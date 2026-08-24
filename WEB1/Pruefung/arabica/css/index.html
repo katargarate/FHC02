@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabica Cafe</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo">Arabica.</div>
+
+        <!-- Navbar -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="#reservieren" class="btn btn-primary">Jetzt reservieren</a>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h2 class="hero-pretitle">Willkommen im</h2>
+                <h1 class="hero-title">Arabica<br>Cafe</h1>
+                <p class="hero-subtitle">Genieße besondere Kaffeemomente mit hochwertigen Bohnen und gemütlichem Ambiente.</p>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h2 class="section-title">Was unsere Gäste sagen</h2>
+
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <img src="/css/images/coffee1.jpg" alt="coffee beans spread out on a table" class="testimonial-image">
+                    <h3 class="testimonial-quote">Wundervoller Kaffee und ein tolles Ambiente. Komme immer wieder gerne!
+                    </h3>
+                    <p class="testimonial-author">- Julia Schneider</p>
+                </article>
+
+                <article class="testimonial-card">
+                    <img src="/css/images/coffee2.jpg" alt="a cup of coffee with latte art on a table"
+                        class="testimonial-image">
+                    <h3 class="testimonial-quote">Das Gebäck ist frisch und lecker, der Service sehr freundlich.</h3>
+                    <p class="testimonial-author">- Andreas Gruber</p>
+                </article>
+
+                <article class="testimonial-card">
+                    <img src="/css/images/coffee3.jpg" alt="woman drinking coffee" class="testimonial-image">
+                    <h3 class="testimonial-quote">Mein Lieblingscafé in der Stadt. Sehr zu empfehlen!</h3>
+                    <p class="testimonial-author">- Nina Huber</p>
+                </article>
+            </div>
+
+            <!-- Newsletter -->
+            <form class="newsletter" action="/subscribe" method="post">
+                <div class="newsletter-form">
+                    <label for="newsletter-email" class="newsletter-label">Abonniere unseren Newsletter:</label>
+                    <input type="email" id="newsletter-email" name="email" class="newsletter-input"
+                        placeholder="Deine E-Mail" required>
+                    <button type="submit" class="btn btn-primary">Abonnieren</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="contact">
+        <div class="footer-col footer-brand">
+            <div class="logo footer-logo">Arabica.</div>
+            <p class="footer-copyright">© 2025 Arabica Cafe</p>
+        </div>
+
+        <div class="footer-col">
+            <p class="footer-heading">Kontakt:</p>
+            <p>123 Gasse, Graz</p>
+            <p>contact@arabica-caffee.at</p>
+            <p>(0316) 123-4567</p>
+        </div>
+
+        <div class="footer-col">
+            <p class="footer-heading">Öffnungszeiten:</p>
+            <p>Mo-Fr: 8:00-18:00</p>
+            <p>Sa-So: 9:00-16:00</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

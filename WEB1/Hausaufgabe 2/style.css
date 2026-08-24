@@ -1,0 +1,214 @@
+:root {
+    --primary: #507c3a;
+    --primary-light: #a8dba8;
+    --green-text: #4a7a3a;
+    --text-dark: #000000;
+    --text-light: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Verdana, Arial, sans-serif;
+    color: var(--text-dark);
+}
+
+/* -- HEADER -- */
+header {
+    background: var(--primary);
+    padding: 28px 40px;
+    border-bottom: 3px solid var(--primary);
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+/* -- HERO -- */
+.hero {
+    position: relative;
+    height: 640px;
+    background-image: url('/images/hero_fullsize.jpg');
+    background-size: cover;
+    background-position: center 40%;
+    justify-content: center;
+}
+
+/* text background */
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.38);
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.hero-overlay h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.25;
+    max-width: 900px;
+}
+
+/* -- SIDEBAR + CONTENT -- */
+
+.layout {
+    display: flex;
+    min-height: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.sidebar {
+    background: var(--primary);
+    width: 240px;
+    flex-shrink: 0;
+    padding: 30px 0;
+}
+
+nav.sidebar ul {
+    list-style: none;
+}
+
+nav.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.15rem;
+    padding: 14px 32px;
+}
+
+nav.sidebar a.active {
+    background: var(--primary-light);
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    padding: 40px 50px;
+}
+
+main h2 {
+    color: var(--green-text);
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+main p.intro {
+    font-size: 1.05rem;
+    margin-bottom: 34px;
+}
+
+.products {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    flex: 1 1 220px;
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.product-card .card-body {
+    padding: 16px 18px 22px;
+}
+
+.product-card h3 {
+    color: var(--green-text);
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.product-card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* -- FOOTER -- */
+footer {
+    background: var(--primary);
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+footer .footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+
+footer .footer-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    padding: 14px 32px;
+}
+
+footer .footer-nav a.active {
+    background: var(--primary-light);
+}
+
+footer .footer-nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+footer .contact {
+    color: #111;
+    font-size: 1rem;
+    padding-top: 6px;
+}
+
+
+/* -- MOBILE --*/
+
+@media (max-width: 600px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    nav.sidebar {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .hero {
+        height: 420px;
+    }
+
+    .hero-overlay h2 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        padding: 30px 24px;
+    }
+
+    
+}
