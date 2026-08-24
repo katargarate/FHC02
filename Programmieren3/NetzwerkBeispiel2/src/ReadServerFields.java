@@ -15,7 +15,6 @@ public class ReadServerFields {
 
         Map<String, List<String>> map = urlCon.getHeaderFields();
 
-
         for (String key : map.keySet()) {
             System.out.println(key + ":");
 
@@ -25,5 +24,6 @@ public class ReadServerFields {
                 System.out.println("\t" + aValue);
             }
         }
+
     }
 }
