@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79352fa6-8ccd-4079-aa88-4589b4f93233" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../06-hashtable-katargarate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/ALD-Klausur-2025-07-18-Praxis/src/P3_SortPhotoAlbums/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/ALD-Klausur-2025-07-18-Praxis/src/P3_SortPhotoAlbums/Sorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_Files.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/campus02-test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/console_byte_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filey" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filey2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grades.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printstream_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/PrintStreamUebung.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/UE12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/UE13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Binary/UE16.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE7FIles/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/idk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ue14-output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/06-hashtable-katargarate" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/06-hashtable-katargarate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/Algorithmen" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/Algorithmen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithmen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithmen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB1/Testpruefung/zopfli/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB1/Testpruefung/zopfli/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +146,8 @@
       <workItem from="1782391289191" duration="674000" />
       <workItem from="1783328233617" duration="597000" />
       <workItem from="1783416055784" duration="598000" />
+      <workItem from="1783881890694" duration="597000" />
+      <workItem from="1783924279372" duration="597000" />
     </task>
     <servers />
   </component>

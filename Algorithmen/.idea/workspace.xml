@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71acf84f-931c-4698-9de9-18551e3f1936" name="Changes" comment="" />
+    <list default="true" id="71acf84f-931c-4698-9de9-18551e3f1936" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/06-hashtable-katargarate" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/06-hashtable-katargarate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/Algorithmen" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithmen Und Datenstrukturen/Algorithmen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P3_Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P3_Files/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB1/Testpruefung/zopfli/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB1/Testpruefung/zopfli/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +38,6 @@
       <entry key="_/Users/katargarate/FHC02/Algorithmen" value="3G7h0Fj7AHIBuIRGBOhniUac4od" />
     </persistenceIdMap>
   </component>
-  <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="8" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -44,17 +46,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "katargarate"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;katargarate&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/c02-ald26/08-graph-katargarate.git",
+    "url": "https://github.com/katargarate/FHC02.git",
     "accountId": "eb9bf917-452e-4fb0-929d-11c80d5a1544"
   }
 }]]></component>
@@ -62,10 +64,10 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3G7h0Fj7AHIBuIRGBOhniUac4od" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,6 +75,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -99,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783328290255</updated>
       <workItem from="1783328291275" duration="7135000" />
+      <workItem from="1783882162943" duration="92000" />
     </task>
     <servers />
   </component>

@@ -47,7 +47,7 @@ public class Main {
     static void readPathFromFile() throws IOException {
 
         BufferedReader br = new BufferedReader(new FileReader(new File("path-file.txt")));
-        String path = br.readLine();
+        String path = br.readLine().trim();
 
         URL myURL = new URL(path);
 
