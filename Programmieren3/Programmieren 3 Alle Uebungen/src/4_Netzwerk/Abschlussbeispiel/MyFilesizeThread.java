@@ -1,9 +1,9 @@
-package testpr20240528;
+package Abschlussbeispiel;
 
 import java.io.File;
 
 public class MyFilesizeThread implements Runnable {
-    File logfileFromMain;
+    File logfileFromMain; // Referenz auf dasselbe Logfile-Objekt wie im Main-Thread
 
     public MyFilesizeThread(File logfileToSize) {
         this.logfileFromMain = logfileToSize;
@@ -11,21 +11,18 @@ public class MyFilesizeThread implements Runnable {
 
     @Override
     public void run() {
+        // läuft so lange, bis der Thread von außen unterbrochen wird (interrupt())
         while (!Thread.interrupted()) {
-            //File localLogFile = new File("logfile.txt");
             System.out.println("FILSIZE: " +
-                    //localLogFile.length() + "( i am thread)" +
                     logfileFromMain.length() + " (Name:  " +
                     Thread.currentThread().getName() + ")");
             try {
-                Thread.sleep(5000);
+                Thread.sleep(5000); // 5 Sekunden warten bis zur nächsten Ausgabe
             } catch (InterruptedException e) {
+                // hier landen wir, wenn logfilesizeThread.interrupt() aus main() aufgerufen wird
+                // -> das ist die "freundliche" Beendigung, die die Aufgabe verlangt
                 System.out.println("Schlaf wurde unterbrochen, beende mich.");
-                //throw new RuntimeException(e);
-
-                //wrapping would be: (down not work here, but in priciple)
-                //throw new LogFileException(e.getMessage());
-                break;
+                break; // Schleife verlassen -> run() ist fertig -> Thread stirbt sauber
             }
         }
     }

@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class File_Inspection {
+public class UE01_File_Inspection {
     static void main(String[] args) {
         File newfile = new File("src/new-file-to-inspect.txt");
         inspectFile(newfile);

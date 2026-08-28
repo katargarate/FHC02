@@ -1,0 +1,12 @@
+<--- DATEN VON CHAT: [2026-08-27 17:08:49] [Katharina] connected on port 41400
+<--- DATEN VON CHAT: [2026-08-27 17:07:09] [lobby] [TimeBot] says: I am Timebot and the time is: 17:07:09
+<--- DATEN VON CHAT: [2026-08-27 17:07:19] [lobby] [TimeBot] says: I am Timebot and the time is: 17:07:19
+---> DATEN GESENDET VON USER: hello
+<--- DATEN VON CHAT: [2026-08-27 17:07:29] [lobby] [TimeBot] says: I am Timebot and the time is: 17:07:29
+<--- DATEN VON CHAT: [2026-08-27 17:07:39] [lobby] [TimeBot] says: I am Timebot and the time is: 17:07:39
+<--- DATEN VON CHAT: [2026-08-27 17:07:49] [lobby] [TimeBot] says: I am Timebot and the time is: 17:07:49
+---> DATEN GESENDET VON USER: ndksad
+<--- DATEN VON CHAT: [2026-08-27 17:07:59] [lobby] [TimeBot] says: I am Timebot and the time is: 17:07:59
+<--- DATEN VON CHAT: [2026-08-27 17:08:09] [lobby] [TimeBot] says: I am Timebot and the time is: 17:08:09
+<--- DATEN VON CHAT: [2026-08-27 17:08:19] [lobby] [TimeBot] says: I am Timebot and the time is: 17:08:19
+<--- DATEN VON CHAT: [2026-08-27 17:08:29] [lobby] [TimeBot] says: I am Timebot and the time is: 17:08:29

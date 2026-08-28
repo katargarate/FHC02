@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class UE03_DisplayDirectoryContent {
+public class UE04_DisplayDirectoryContent {
     static void main(String[] args) {
         File dir = new File("/Users/katargarate/Documents/AQUA Unterlagen");
         printDirectoryContent(dir);

@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
-public class CreateAndRenameFiles {
+public class UE06_CreateAndRenameFiles {
     static void main(String[] args) {
         File dir = new File("src/1_Files/Practice_Directory");
 

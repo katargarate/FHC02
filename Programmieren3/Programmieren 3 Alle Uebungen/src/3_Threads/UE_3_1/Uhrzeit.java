@@ -2,17 +2,23 @@ package UE_3_1;
 
 import java.util.Date;
 
-public class HintergrundThread implements Runnable{
+public class Uhrzeit extends Thread{
 
     private boolean isRunning = true;
 
     @Override
     public void run() {
-        while (isRunning) {
-            System.out.println(new Date());
-        }
+        do {
+            Date date = new Date();
+            System.out.println(Thread.currentThread().getName()+": " + date);
 
-        System.out.println("Ending HintergrundThread...");
+            try {
+                Thread.sleep(1000); // 1 second sleep
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        } while (isRunning);
+
     }
 
     public void requestShutDown() {

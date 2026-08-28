@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class WriteIntoFile {
+public class UE09_WriteIntoFile {
     static void main(String[] args) throws IOException {
         File file = new File("src/1_Files/file-to-write-into.txt");
 

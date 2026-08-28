@@ -1,9 +1,9 @@
-package UE_3_3;
+package UE_3_4;
 
 public class Main {
     public static void main(String[] args) {
-        Worker worker1 = new Worker();
-        Worker worker2 = new Worker();
+        WorkerWithWaitNotify worker1 = new WorkerWithWaitNotify(0);
+        WorkerWithWaitNotify worker2 = new WorkerWithWaitNotify(1);
 
         Thread t1 = new Thread(worker1);
         Thread t2 = new Thread(worker2);

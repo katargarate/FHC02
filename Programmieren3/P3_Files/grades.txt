@@ -1,3 +1,0 @@
-Note 1: pr1: 1
-Note 2: pr2: 2
-Note 3: ald: 3

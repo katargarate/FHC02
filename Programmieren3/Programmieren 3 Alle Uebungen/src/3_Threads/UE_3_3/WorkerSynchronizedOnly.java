@@ -1,6 +1,6 @@
 package UE_3_3;
 
-public class Worker implements Runnable {
+public class WorkerSynchronizedOnly implements Runnable {
 
     private static final Object lock = new Object();
     private static int counter = 0;

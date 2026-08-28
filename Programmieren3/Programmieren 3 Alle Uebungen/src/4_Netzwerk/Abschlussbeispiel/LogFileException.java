@@ -1,4 +1,4 @@
-package testpr20240528;
+package Abschlussbeispiel;
 
 public class LogFileException extends Exception{
     //diese Klasse wird in der Aufgabenstellung nicht benötigt,

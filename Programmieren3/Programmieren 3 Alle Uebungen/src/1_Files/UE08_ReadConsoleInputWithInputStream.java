@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ReadConsoleInputWithInputStream {
+public class UE08_ReadConsoleInputWithInputStream {
     static void main(String[] args) {
         readConsoleInputWithInputStream();
     }

@@ -1,68 +1,86 @@
-package testpr20240528;
+package Abschlussbeispiel;
 
 import java.io.*;
 import java.net.Socket;
 
-public class Main {
+public class MainABSCHLUSS {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         Socket chatSocket = new Socket(
-                "bernhardfuchs.at", 40064);
-        //Reader user input
+                "bernhardfuchs.at", 41400);
+
+        System.out.println("Verbunden mit Server!");
+
+        // Reader für Input von der Konsole (User tippt hier)
         BufferedReader userInput = new BufferedReader(
                 new InputStreamReader(System.in)
         );
-        //Writer to chat
+        // Writer zum Chat-Server (schickt Daten raus)
         PrintWriter chatOutput = new PrintWriter(
                 new OutputStreamWriter(chatSocket.getOutputStream())
         );
-        //Reader FROM chat
+        // Reader VOM Chat-Server (empfängt Daten)
         BufferedReader chatInput = new BufferedReader(
                 new InputStreamReader(chatSocket.getInputStream())
         );
-        File logfile = new File("logfile.txt");
-        FileWriter lofileWriter = new FileWriter(logfile);
 
-        //ich übergebe dem Thread Objekt das logfoile im Comstructor
+        // WICHTIG: Pfad muss wirklich existieren, sonst crasht createNewFile() mit IOException.
+        // Vorher war der Pfad "src/4_Netzwerk/Abschlussbeispiel/logfile.txt" -> Ordner gibt's nicht -> Crash beim Start.
+        // Einfach relativ zum Projektordner ablegen:
+        File logfile = new File("logfile.txt");
+        logfile.createNewFile(); // legt Datei an, falls sie noch nicht existiert
+        FileWriter logfileWriter = new FileWriter(logfile);
+
+        // Hintergrundthread starten, der alle 5 Sek. die Dateigröße ausgibt
         Thread logfilesizeThread = new Thread(new MyFilesizeThread(logfile));
         logfilesizeThread.start();
 
+        // Label für die äußere Schleife, damit wir mit "break aussen;" aus BEIDEN Schleifen springen können
+        aussen:
         while (true) {
-            //sind Daten vom USER verfügbar? -> Auf Konsole, in Logfile und zum globalen Chat schicken.
+
+            // --- USER INPUT PRÜFEN ---
             String userInputString = "";
             while (userInput.ready()) {
                 userInputString = userInput.readLine();
 
-                //System.out.println("DEBUG: sende Text '" + userInputString
-                //        + "' zu Chat...");
+                // Check auf "ende" JETZT, BEVOR irgendwas gesendet/geschrieben wird!
+                // Vorher wurde "ende" zuerst verschickt und erst danach geprüft -> Aufgabe 4 war nicht erfüllt.
+                if (userInputString.equalsIgnoreCase("ende")) {
+                    System.out.println("USER HAT ENDE EINGEGEBEN; BEENDE ALLES.");
+                    System.out.println("Beende logfilesizeThread...");
+                    logfilesizeThread.interrupt(); // Thread höflich stoppen (siehe InterruptedException im Thread)
+                    System.out.println("ChatProgramm beendet sich.");
+                    break aussen; // raus aus BEIDEN Schleifen, nicht nur der inneren
+                }
+
+                // normaler Text -> an Chat senden, auf Konsole zeigen, in Logfile schreiben
                 chatOutput.println("---> DATEN GESENDET VON USER: " + userInputString);
                 System.out.println("---> DATEN GESENDET VON USER: " + userInputString);
-                chatOutput.flush();
-                lofileWriter.write("---> DATEN GESENDET VON USER: " + userInputString + "\n");
-                lofileWriter.flush();
+                chatOutput.flush(); // sofort rausschicken, nicht im Buffer hängen lassen
+                logfileWriter.write("---> DATEN GESENDET VON USER: " + userInputString + "\n");
+                logfileWriter.flush();
             }
-            //Möchte der USER das ganze Programm beenden?
-            //dieses if MUSS hier sein, damit wir aus der äußersten while()
-            //schleife springen können.
-            //Möglichkeit aus einem nested loop ganz hinaus zu springen:
-            //(Hinweis: man muss dem außersten einfach einen Namen geben)
-            //https://stackoverflow.com/questions/886955/how-do-i-break-out-of-nested-loops-in-java
-            if (userInputString.equalsIgnoreCase("ende")) {
-                System.out.println("USER HAT ENDE EINGEGEBEN; BEENDE ALLES.");
-                System.out.println("Beende logfilesizeThread...");
-                logfilesizeThread.interrupt();
-                System.out.println("ChatProgramm beendet sich.");
-                //System.exit(0);
-                break; // gehe aus der Hauptschleife
-            }
-            //sind Daten vom Chat verfügbar? -> auf Konsole schreiben
+
+            // --- CHAT INPUT PRÜFEN ---
             if (chatInput.ready()) {
-                System.out.println("<--- DATEN VON CHAT: " + chatInput.readLine());
-                lofileWriter.write("<--- DATEN VON CHAT: " + chatInput.readLine()
-                        + "\n");
-                lofileWriter.flush();
+                // FEHLER VORHER: readLine() wurde 2x aufgerufen (einmal für System.out, einmal für logfileWriter).
+                // ready() garantiert aber nur EINE verfügbare Zeile -> der zweite readLine() Aufruf blockiert
+                // und wartet ewig auf eine neue Zeile vom Server -> ganzes Programm hängt/"macht nichts mehr".
+                // FIX: einmal lesen, in Variable speichern, Variable 2x verwenden.
+                String chatLine = chatInput.readLine();
+                System.out.println("<--- DATEN VON CHAT: " + chatLine);
+                logfileWriter.write("<--- DATEN VON CHAT: " + chatLine + "\n");
+                logfileWriter.flush();
             }
-            Thread.sleep(1000);
+
+            Thread.sleep(1000); // kurz warten, damit die Schleife nicht die CPU auffrisst
         }
+
+        // Aufräumen: alles schön schließen, bevor das Programm endet
+        logfileWriter.close();
+        chatOutput.close();
+        chatInput.close();
+        chatSocket.close();
     }
 }

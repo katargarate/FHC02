@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class ReadFromConsoleAndWriteToFile {
+public class UE10_ReadFromConsoleAndWriteToFile {
     static void main(String[] args) throws IOException {
         File file = new File("src/1_Files/noten_von_der_konsole.text");
 

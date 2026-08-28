@@ -1,0 +1,10 @@
+<--- EMPFANGEN: [2026-08-27 19:02:25] [Katharina] connected on port 41400
+<--- EMPFANGEN: [2026-08-27 19:00:50] [lobby] [TimeBot] says: I am Timebot and the time is: 19:00:50
+<--- EMPFANGEN: [2026-08-27 19:01:00] [lobby] [TimeBot] says: I am Timebot and the time is: 19:01:00
+<--- EMPFANGEN: [2026-08-27 19:01:10] [lobby] [TimeBot] says: I am Timebot and the time is: 19:01:10
+<--- EMPFANGEN: [2026-08-27 19:01:20] [lobby] [TimeBot] says: I am Timebot and the time is: 19:01:20
+---> GESENDET: hello
+<--- EMPFANGEN: [2026-08-27 19:01:30] [lobby] [TimeBot] says: I am Timebot and the time is: 19:01:30
+<--- EMPFANGEN: [2026-08-27 19:01:40] [lobby] [TimeBot] says: I am Timebot and the time is: 19:01:40
+<--- EMPFANGEN: [2026-08-27 19:01:50] [lobby] [TimeBot] says: I am Timebot and the time is: 19:01:50
+<--- EMPFANGEN: [2026-08-27 19:02:00] [lobby] [TimeBot] says: I am Timebot and the time is: 19:02:00

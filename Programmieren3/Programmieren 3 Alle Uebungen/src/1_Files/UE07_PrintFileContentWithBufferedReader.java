@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class PrintFileContentWithBufferedReader {
+public class UE07_PrintFileContentWithBufferedReader {
 
     static void main(String[] args) {
         File file = new File("src/1_Files/new-file-to-inspect.txt");

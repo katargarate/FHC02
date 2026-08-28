@@ -1,6 +1,6 @@
 package UE_3_4;
 
-public class Worker implements Runnable {
+public class WorkerWithWaitNotify implements Runnable {
 
     private static final Object lock = new Object();
     private static int counter = 0;
@@ -8,7 +8,7 @@ public class Worker implements Runnable {
 
     private int id;
 
-    public Worker(int id) {
+    public WorkerWithWaitNotify(int id) {
         this.id = id;
     }
 
@@ -33,6 +33,7 @@ public class Worker implements Runnable {
 
                 // increment the counter and print it
                 System.out.println(Thread.currentThread().getName() + ": Counter: " + ++counter);
+
 
                 turn = 1 - id; // pass the turn to the other thread
                 lock.notifyAll(); // wake it up

@@ -1,4 +1,4 @@
-package at.campus02.pr3.fileio.textoutput;
+package ExtraFileExamples;
 
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;

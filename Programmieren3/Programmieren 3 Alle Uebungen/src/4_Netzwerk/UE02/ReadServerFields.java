@@ -1,4 +1,4 @@
-package at.campus02.pr3.network.beispiel2;
+package UE02;
 
 import java.io.IOException;
 import java.net.URL;
@@ -17,6 +17,7 @@ public class ReadServerFields {
         Map<String, List<String>> map = urlCon.getHeaderFields();
 
 
+        // loop through the keys and print it along with its values
         for (String key : map.keySet()) {
             System.out.println(key + ":");
 

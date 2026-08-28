@@ -24,6 +24,7 @@ public class ListenToMultipleClients {
             e.printStackTrace();
         }
 
+        // enter with: nc localhost 9090
 
         while (true) {
             try {
@@ -42,7 +43,7 @@ public class ListenToMultipleClients {
         // joined alle Threads
         for (Thread t : clients) {
             try {
-                t.join(); // wartet bis alle Clients verbunden sind
+                t.join(); // wartet bis alle Clients fertig sind
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

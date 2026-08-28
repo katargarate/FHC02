@@ -1,4 +1,4 @@
-package at.campus02.pr3.network.beispiel2;
+package UE02;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

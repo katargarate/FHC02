@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class UE03_ListDirectoryContent {
+public class UE02_03_ListDirectoryContent {
     static void main(String[] args) {
         File dir = new File("/Users/katargarate/Documents/AQUA Unterlagen");
         //listDirectoryContent(dir);

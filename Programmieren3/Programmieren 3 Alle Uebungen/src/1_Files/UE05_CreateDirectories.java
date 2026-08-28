@@ -1,6 +1,6 @@
 import java.io.File;
 
-public class CreateDirectories {
+public class UE05_CreateDirectories {
     static void main(String[] args) {
         File dirToCreate = new File("src/1_Files/createdDirectory/Layer2/Layer3");
         createMultipleDirectories(dirToCreate);
