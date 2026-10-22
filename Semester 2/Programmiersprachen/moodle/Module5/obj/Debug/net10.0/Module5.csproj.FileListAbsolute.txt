@@ -1,0 +1,15 @@
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/bin/Debug/net10.0/Module5
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/bin/Debug/net10.0/Module5.deps.json
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/bin/Debug/net10.0/Module5.runtimeconfig.json
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/bin/Debug/net10.0/Module5.dll
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/bin/Debug/net10.0/Module5.pdb
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.AssemblyInfoInputs.cache
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.AssemblyInfo.cs
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.csproj.CoreCompileInputs.cache
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.sourcelink.json
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.dll
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/refint/Module5.dll
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.pdb
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/Module5.genruntimeconfig.cache
+/Users/katargarate/FHC02/Programmiersprachen/moodle/Module5/obj/Debug/net10.0/ref/Module5.dll

@@ -1,0 +1,45 @@
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.deps.json
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.runtimeconfig.json
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.dll
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.pdb
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.AssemblyInfoInputs.cache
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.AssemblyInfo.cs
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.csproj.CoreCompileInputs.cache
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.sourcelink.json
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.dll
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/refint/NewApp.dll
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.pdb
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.genruntimeconfig.cache
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/ref/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.deps.json
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.runtimeconfig.json
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/bin/Debug/net10.0/NewApp.pdb
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.AssemblyInfoInputs.cache
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.AssemblyInfo.cs
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.csproj.CoreCompileInputs.cache
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.sourcelink.json
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/refint/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.pdb
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/NewApp.genruntimeconfig.cache
+/Users/katargarate/FHC02/Programmiersprachen/NewApp/obj/Debug/net10.0/ref/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.AssemblyInfoInputs.cache
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.AssemblyInfo.cs
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.csproj.CoreCompileInputs.cache
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.sourcelink.json
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/refint/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.pdb
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /bin/Debug/net10.0/NewApp
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /bin/Debug/net10.0/NewApp.deps.json
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /bin/Debug/net10.0/NewApp.runtimeconfig.json
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /bin/Debug/net10.0/NewApp.dll
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /bin/Debug/net10.0/NewApp.pdb
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/NewApp.genruntimeconfig.cache
+/Users/katargarate/FHC02/Programmiersprachen/Vererbung /obj/Debug/net10.0/ref/NewApp.dll

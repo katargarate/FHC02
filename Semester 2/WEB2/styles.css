@@ -1,0 +1,67 @@
+body {
+    background-color: #6B79FF;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6B79FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-bar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #140E4B;  
+}
+
+br {
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.disco-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#about-us {
+    padding-top: 100px;
+}
+
+

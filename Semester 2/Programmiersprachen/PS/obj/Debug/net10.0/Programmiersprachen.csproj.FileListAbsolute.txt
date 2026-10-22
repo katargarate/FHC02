@@ -1,0 +1,15 @@
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/bin/Debug/net10.0/Programmiersprachen
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/bin/Debug/net10.0/Programmiersprachen.deps.json
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/bin/Debug/net10.0/Programmiersprachen.runtimeconfig.json
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/bin/Debug/net10.0/Programmiersprachen.dll
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/bin/Debug/net10.0/Programmiersprachen.pdb
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.AssemblyInfoInputs.cache
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.AssemblyInfo.cs
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.csproj.CoreCompileInputs.cache
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.sourcelink.json
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.dll
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/refint/Programmiersprachen.dll
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.pdb
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/Programmiersprachen.genruntimeconfig.cache
+/Users/katargarate/Documents/Obsidian/Women in STEM/FHC02/Programmiersprachen/obj/Debug/net10.0/ref/Programmiersprachen.dll
