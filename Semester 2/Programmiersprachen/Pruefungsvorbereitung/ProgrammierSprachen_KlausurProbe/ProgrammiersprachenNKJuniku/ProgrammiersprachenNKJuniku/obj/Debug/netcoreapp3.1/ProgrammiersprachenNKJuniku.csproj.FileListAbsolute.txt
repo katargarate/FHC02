@@ -1,0 +1,13 @@
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\bin\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.exe
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\bin\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.deps.json
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\bin\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.runtimeconfig.json
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\bin\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.runtimeconfig.dev.json
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\bin\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.dll
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\bin\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.pdb
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.csprojAssemblyReference.cache
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.AssemblyInfoInputs.cache
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.AssemblyInfo.cs
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.csproj.CoreCompileInputs.cache
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.dll
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.pdb
+C:\Users\s51636\source\repos\ProgrammiersprachenNKJuniku\ProgrammiersprachenNKJuniku\obj\Debug\netcoreapp3.1\ProgrammiersprachenNKJuniku.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "n2izc0gnHYA=",
+  "success": true,
+  "projectFilePath": "/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Pruefungsvorbereitung/ExamPractice/ExamPractice.csproj",
+  "expectedPackageFiles": [
+    "/Users/katargarate/.nuget/packages/microsoft.netcore.app.ref/8.0.31/microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "/Users/katargarate/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.31/microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "/Users/katargarate/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.31/microsoft.netcore.app.host.osx-arm64.8.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

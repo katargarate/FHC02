@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling Beispiel</title>
+</head>
+
+<body>
+    <ul id="todoList">
+        <li>Aufgabe 1</li>
+        <li>Aufgabe 2</li>
+        <li>Aufgabe 3</li>
+        <li>Aufgabe 4</li>
+    </ul>
+
+    <script>
+        const todoList = document.getElementById("todoList");
+
+        // Event-Delegation mittels Bubbling
+        todoList.addEventListener("click", function (event) {
+            if (event.target.tagName === "LI") {
+                console.log("Du hast auf: " + event.target.textContent + " geklickt");
+            }
+        });
+    </script>
+</body>
+
+</html>

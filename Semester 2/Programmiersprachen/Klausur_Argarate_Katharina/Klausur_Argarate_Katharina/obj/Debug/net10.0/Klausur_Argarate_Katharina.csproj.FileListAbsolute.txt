@@ -1,0 +1,15 @@
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/bin/Debug/net10.0/Klausur_Argarate_Katharina
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/bin/Debug/net10.0/Klausur_Argarate_Katharina.deps.json
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/bin/Debug/net10.0/Klausur_Argarate_Katharina.runtimeconfig.json
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/bin/Debug/net10.0/Klausur_Argarate_Katharina.dll
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/bin/Debug/net10.0/Klausur_Argarate_Katharina.pdb
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.GeneratedMSBuildEditorConfig.editorconfig
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.AssemblyInfoInputs.cache
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.AssemblyInfo.cs
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.csproj.CoreCompileInputs.cache
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.sourcelink.json
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.dll
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/refint/Klausur_Argarate_Katharina.dll
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.pdb
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/Klausur_Argarate_Katharina.genruntimeconfig.cache
+/Users/katargarate/FHC02/Semester 2/Programmiersprachen/Klausur_Argarate_Katharina/Klausur_Argarate_Katharina/obj/Debug/net10.0/ref/Klausur_Argarate_Katharina.dll

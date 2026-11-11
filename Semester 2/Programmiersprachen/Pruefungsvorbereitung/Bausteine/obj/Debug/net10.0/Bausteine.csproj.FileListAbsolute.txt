@@ -1,0 +1,14 @@
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\bin\Debug\net10.0\Bausteine.exe
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\bin\Debug\net10.0\Bausteine.deps.json
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\bin\Debug\net10.0\Bausteine.runtimeconfig.json
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\bin\Debug\net10.0\Bausteine.dll
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\bin\Debug\net10.0\Bausteine.pdb
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.GeneratedMSBuildEditorConfig.editorconfig
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.AssemblyInfoInputs.cache
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.AssemblyInfo.cs
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.csproj.CoreCompileInputs.cache
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.dll
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\refint\Bausteine.dll
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.pdb
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\Bausteine.genruntimeconfig.cache
+D:\2-Semester\Programmiersprachen\lernen\Bausteine\obj\Debug\net10.0\ref\Bausteine.dll

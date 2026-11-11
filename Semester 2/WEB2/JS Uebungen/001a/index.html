@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Test Site</h1>
+    </header>
+    
+</body>
+</html>
+<script>
+
+    do {
+        let name = prompt("What's your name?");
+
+        let birthYear = prompt("What's your birth year?");
+
+        let confirmed = confirm(`Is your name ${name} and your birth year ${birthYear}?`);
+
+        if (confirmed) break;
+
+    } while (true)
+    
+    
+    let age = calculateAge(birthYear);
+
+    let ofAge = age >= 18;
+
+    if (ofAge) {
+        alert(`${name}, you are ${age} years old and therefore of age`);
+    } else {
+        alert(`${name}, you are ${age} years old and therefore underage`);
+    }
+
+    function calculateAge(birthYear) {
+        return 2026 - birthYear;
+    }
+
+</script>

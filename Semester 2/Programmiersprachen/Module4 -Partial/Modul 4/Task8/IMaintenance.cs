@@ -1,4 +1,0 @@
-interface IMaintenance
-{
-    void serviceCar();
-}

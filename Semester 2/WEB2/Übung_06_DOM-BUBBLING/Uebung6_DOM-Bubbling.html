@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            margin: 10p 30px;
+            background-color: pink;
+        }
+
+        div {
+            padding: 20px;
+            background-color: green;
+        }
+
+        span {
+            display: block;
+            padding: 20px;
+            background-color: blue;
+        }
+
+        /* Damit ich auch auf das Body klicken kann, muss ich es ueber die gesamte Seite ziehen
+        html, body{
+            height: 100%;
+            margin: 0;
+        } */
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>
+            <button>Klick mich!</button>
+        </span>
+        <span style="background-color: orange;">
+            <button id="leeren">Leeren</button>
+        </span>
+    </div>
+
+    <!-- Script Code ab hier -->
+    <script>
+        //Initialisierung und Beispiel für querySelector
+
+        //Variable body wurde mit var initialisiert, weil die gleiche Variable öfter neu initialisiert wird für Vorführungszwecke
+        var body = document.getElementsByTagName("body"); //gibt eine HTMLCollection retour
+        console.log("body: Gibt eine HTML-Collection retour, quasi alles")
+        console.log(body);
+        console.log("--------");
+
+        var body = document.getElementsByTagName("body")[0]; //das [0] notwendig, da wir hier mehrere Elemente retour bekommen die im Body liegen, durch [0] bekommen wir oberstes Element
+        console.log("body[0]: das [0] ist notwendig, da wir hier mehrere Elemente retour bekommen die im Body liegen, durch [0] bekommen wir nur das oberste/erste Element")
+        console.log(body);
+        console.log("--------");
+
+        var body = document.querySelector("body"); //Hier gibt er nur das erste gefundene Element wieder > bessere und saubere variante heutzutage für ein Element, wenn nicht ID genutzt wird
+        console.log("querySelector(body): Hier gibt er nur das erste gefundene Element wieder > bessere und saubere variante heutzutage für ein Element, wenn nicht ID genutzt wird");
+        console.log(body);
+        console.log("--------");
+
+        let div = document.querySelector("div");
+        let span = document.querySelector("span");
+        let span2 = document.getElementsByTagName("span")[1];
+
+        console.log("querySelector(span): gibt mir nur das erste gefundene span zurück - 1 Element!");
+        console.log(span);
+        console.log("--------");
+
+        let button = document.querySelector("button");
+        console.log("querySelector(button): gibt mir nur das erste Button-Element zurück");
+        console.log(button);
+
+        //sichtbarmachen, dass ich am button bin (nur bei Button1)
+        button.style.cursor = 'pointer'; // Zeigt eine Hand beim Hover
+
+        //Console leeren, damit sauber für nächstes Beispiel
+        var leerenButton = document.querySelector("#leeren");
+        leerenButton.addEventListener('click', function (event) { //Achtung, Wenn ID für querySelector angegeben wird muss # davor platziert werden, sonst geht es nicht! -> besser getElementbyID wenn ich nach ID suche
+            console.clear();
+            //Bubbling stoppen, damit es leer bleibt, nur mit stopImmediatePropagation
+            event.stopImmediatePropagation(); 
+        });
+
+
+        //Bubbling - Events hinzufügen auf jedes Element
+        function bubblingTracken() {
+            body.addEventListener("click", function () { console.log("B: BODY wurde geklickt - BUBBLING\n-----------") }); //bekannte Schreibweise einer anonymen Funktion
+            div.addEventListener("click", () => console.log("B: DIV wurde geklickt - BUBBLING")); //vereinfachte Schreibweise einer anonymen Funktion
+            span.addEventListener("click", () => console.log("B: SPAN-Blau wurde geklickt - BUBBLING"));
+            span2.addEventListener("click", () => console.log("B: SPAN-Orange wurde geklickt - BUBBLING"));
+            button.addEventListener("click", () => console.log("B: BUTTON-Klick mich! wurde geklickt - BUBBLING"));
+            leerenButton.addEventListener("click", () => console.log("B: BUTTON-Leeren wurde geklickt - BUBBLING"));
+        }
+
+
+        //Verhindern, dass Bubbling passiert
+        function bubblingStoppen() {
+            button.addEventListener("click", function (event) {
+                console.log(event); //Infos über das Event selbst bekommen - zb. wo genau, was genau (touch, pen, mouse), druckkraft am touch, welche taste der maus, Neigung vom Stift (zb. beim Zeichnen wichtig), usw.
+                event.stopPropagation(); //Bubbling aktiv stoppen
+            });
+        }
+
+        //Capturing zeigen
+        function capturingTracken() {
+            button.addEventListener("click", () => console.log("C: BUTTON-Klick mich! Capturing"), true);
+            leerenButton.addEventListener("click", () => console.log("C: BUTTON-Leeren Capturing"), true);
+            span.addEventListener("click", () => console.log("C: SPAN Capturing"), true);
+            span2.addEventListener("click", () => console.log("C: SPAN-Orange Capturing"));
+            div.addEventListener("click", () => console.log("C: DIV Capturing"), true);
+            body.addEventListener("click", () => console.log("C: BODY Capturing"), true);
+        }
+
+        //Aufrufen der einzelnen Scripts
+        //capturingTracken();
+        bubblingTracken();
+        //bubblingStoppen();
+
+    </script>
+</body>

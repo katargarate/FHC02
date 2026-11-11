@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Übung 2: Hintergrundfarbe ändern</h2>
+            <div id="colorBox" style="width: 200px; height: 200px; background-color: lightgrey;"></div>
+            <button id="msg-btn">Klick mich</button>
+            <input type="text" id="textInput" placeholder="Gib etwas ein">
+            <p id="message"></p>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+<script>
+    // Übung 1: Hintergrundfarbe mit mouseover und mouseoutändern
+    // Beim Rechteck, dessen Farbe sich beim Mouseover ändert und das seine
+    // ursprüngliche Farbe beim Entfernen des Mauszeigers wiederherstellt.
+    const colorBox = document.getElementById('colorBox');
+
+    colorBox.addEventListener('mouseover', () => {
+        colorBox.style.backgroundColor = 'lightblue';
+    });
+
+    colorBox.addEventListener('mouseout', () => {
+        colorBox.style.backgroundColor = 'lightgrey';
+    }); 
+
+    //Übung 2: Erstellen Sie einen Button, der bei einem Klick eine Nachricht ausgibt und bei einem
+    // Doppelklick die Nachricht ändert.
+    const msgBtn = document.getElementById('msg-btn');
+        let clickTimer = null;
+
+        msgBtn.addEventListener('click', () => {
+            // wait briefly to see if a second click follows
+            if (clickTimer) return;
+            clickTimer = setTimeout(() => {
+                clickTimer = null;
+                alert('Button wurde geklickt!');
+            }, 250);
+        });
+
+        msgBtn.addEventListener('dblclick', () => {
+            // cancel the pending single click
+            clearTimeout(clickTimer);
+            clickTimer = null;
+            alert('Button wurde doppelgeklickt!');
+        });
+
+    //Übung 3: Implementiere ein Textfeld, das bei der Eingabe eines bestimmten Buchstabens ("A„ 
+    // oder „a“) die folgende Nachricht ausgibt: „Sie haben „A“ getippt!“
+
+    const textInput = document.getElementById('textInput');
+
+    textInput.addEventListener('input', () => {
+        const inputValue = textInput.value;
+        if (inputValue.includes('A') || inputValue.includes('a')) {
+            alert('Sie haben "A" getippt!');
+        }
+    });
+
+
+    // Übung 4: Bei Rechtsklick auf der Website, soll das Standardmenü nicht aufgehen, und
+    // Stattdessen der Text „Rechtsklick wurde erkannt!“ angezeigt werden.
+
+    document.addEventListener('contextmenu', (event) => {
+        event.preventDefault();
+        // alert('Rechtsklick wurde erkannt!');
+        message.textContent = 'Rechtsklick wurde erkannt!';
+    });
+
+
+
+</script>

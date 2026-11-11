@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Übungsset</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>DOM-Übungsset</h1>
+
+  <!-- Übung 1: Textinhalt ändern -->
+  <!-- Ändern Sie den Text des headline HTML-Elements, wenn auf den Button geklickt wird.-->
+  <section>
+    <h2>Übung 1: Textinhalt ändern</h2>
+    <h1 id="headline">Willkommen!</h1>
+    <button id="changeTextButton">Text ändern</button>
+  </section>
+
+  <!-- Übung 2: Hintergrundfarbe ändern -->
+  <!-- Ändern Sie die Hintergrundfarbe der colorBox <div>-Elements, wenn auf den Button geklickt wird.-->
+  <section>
+    <h2>Übung 2: Hintergrundfarbe ändern</h2>
+    <div id="colorBox" style="width: 200px; height: 200px; background-color: lightgrey;"></div>
+    <button id="changeColorButton">Farbe ändern</button>
+  </section>
+
+  <!-- Übung 3: Element hinzufügen -->
+  <!-- Fügen Sie beim Klicken auf den Button ein neues <li>-Element zur Liste hinzu.-->
+  <section>
+    <h2>Übung 3: Element hinzufügen</h2>
+    <ul id="myList">
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+    </ul>
+    <button id="addItemButton">Element hinzufügen</button>
+  </section>
+
+  <!-- Übung 4: Textfeld und Ausgabe -->
+  <!-- Lassen Sie den Benutzer einen Text in ein Eingabefeld eingeben und geben Sie diesen Text im <p>-Element aus, wenn der Button geklickt wird.-->
+  <section>
+    <h2>Übung 4: Textfeld und Ausgabe</h2>
+    <input type="text" id="userInput" placeholder="Gib etwas ein">
+    <button id="showTextButton">Anzeigen</button>
+    <p id="outputText"></p>
+  </section>
+
+  <!-- Übung 5: Zähler erhöhen -->
+  <!-- Erstellen Sie einen Zähler, der sich jedes Mal erhöht, wenn ein Button geklickt wird.-->
+  <section>
+    <h2>Übung 5: Zähler erhöhen</h2>
+    <p>Zähler: <span id="counter">0</span></p>
+    <button id="incrementButton">Zähler erhöhen</button>
+  </section>
+
+  <script>
+    //Lösungen hier rein
+
+    //Übung 1
+    let headline = document.getElementById('headline');
+    const changeTextButton = document.getElementById('changeTextButton');
+
+    changeTextButton.addEventListener('click', () => {
+      if (headline.textContent === 'Willkommen!') {
+        headline.textContent = 'Text geändert!';
+      } else headline.textContent = 'Willkommen!';
+    });
+
+    //Übung 2
+    let colors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FF00FF', '#00FFFF', '#FFA500', 
+    '#800080', '#008000', '#000080', '#808080', '#000000', '#FFFFFF', '#A52A2A', '#FFC0CB'];
+    let colorIndex = 0;
+    const colorBox = document.getElementById('colorBox');
+    const changeColorButton = document.getElementById('changeColorButton');
+
+    changeColorButton.addEventListener('click', () => {
+      if (colorIndex >= colors.length - 1) {
+        colorIndex = 0;
+      } else {
+        colorIndex++;
+      }
+
+      colorBox.style.backgroundColor = colors[colorIndex];
+    });
+
+    //Übung 3
+
+    let myList = document.getElementById('myList');
+    const addItemButton = document.getElementById('addItemButton');
+    
+    addItemButton.addEventListener('click', () => {
+      let input = prompt("Gib den Text für das neue Listenelement ein:");
+      if (input && input.trim() !== "") {
+        let newItem = document.createElement('li');
+        newItem.textContent = input;
+        myList.appendChild(newItem);
+      }
+    });
+
+    //Übung 4
+
+    const userInput = document.getElementById('userInput');
+    const showTextButton = document.getElementById('showTextButton');
+    let outputText = document.getElementById('outputText');
+
+    showTextButton.addEventListener('click', () => {
+      if (userInput) {
+        outputText.textContent = userInput.value;
+      }
+    })
+
+    //Übung 5
+
+    let counter = document.getElementById('counter');
+    let incrementButton = document.getElementById('incrementButton');
+
+    incrementButton.addEventListener('click', () => {
+      counter.textContent = parseInt(counter.textContent) + 1;
+    })
+
+  </script>
+</body>
+
+</html>
